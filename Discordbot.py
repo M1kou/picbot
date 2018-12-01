@@ -14,7 +14,7 @@ token = ''
 bot = commands.Bot(command_prefix='!')
 
 def get_imglink(tag=""):
-    tag = tag.replace(":","%3A").replace(" ","+")
+    tag = tag.join("+").replace(":","%3A")
     url = 'https://yande.re/post.json?tags=order%3Arandom+'
     html = requests.get(url+tag,headers=headers)
     print(url+tag)
