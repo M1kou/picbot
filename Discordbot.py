@@ -28,7 +28,7 @@ async def pic(ctx):
     await ctx.send(' I heard you! {0} {1}'.format(ctx.author,get_imglink()))
 
 @bot.command(name='tag')
-async def pic_tag(ctx,tags):
+async def pic_tag(ctx,*tags):
     try:
         await ctx.send(' I heard you! {0} {1}'.format(ctx.author,get_imglink(tags)))
     except IndexError:
