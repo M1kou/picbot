@@ -2,9 +2,9 @@
 一个很丑的Discord图片bot 基于 Rapptz/discord.py
 
 ### 使用方法
-1.安装依赖的第三方库discord.py
+1.安装依赖的第三方库[discord.py](https://github.com/Rapptz/discord.py/tree/rewrite)的rewrite分支
 
-2.在main.py的第12行token中输入bot的token，headers末尾的Cookie用来模拟登陆yande.re，可不写（登陆后可以看到更激进的R18内容）
+2.在main.py的第12行token中输入bot的token，headers末尾的Cookie用来模拟登陆[yande.re](https://yande.re)，可不写（登陆后可以看到更激进的R18内容）
 
 3.运行脚本
 
